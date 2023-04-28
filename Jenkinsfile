@@ -6,7 +6,7 @@ pipeline {
                 echo 'Hello World!'
             }
         }
-        stage('List all files') {
+        stage('Show node version') {
             steps {
                 bat "node --version"
             }
